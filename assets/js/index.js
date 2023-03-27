@@ -18,7 +18,6 @@ function fitSlides() {
                 clickable: true,
             },
         });
-        console.log("resized11" + screen.width);
     }
     else if (screen.width <= 1550) {
         air_swiper = new Swiper(".air-stats", {
@@ -29,10 +28,8 @@ function fitSlides() {
                 clickable: true,
             },
         });
-        console.log("resizedsfsadzf11" + screen.width);
     }
     else {
-        console.log("resized" + screen.width);
         //SwiperJS Short Clips Script
         swiper = new Swiper(".mySwiper", {
             slidesPerView: 7,

@@ -159,13 +159,6 @@ body {
 
 /* Short Clips Swiper*/
 
-.short-clips {
-    overflow: hidden;
-    height: 100px;
-    width: 250px;
-    margin: 5px;
-}
-
 .cut-bot {
     padding-bottom: 20px;
     border-bottom: 1px solid silver;
@@ -401,7 +394,12 @@ body {
     width: 50%;
 }
 
-
+.about-content .left h1 {
+    font-size: 45px;
+    border-left: 8px solid var(--theme-green);
+    padding-left: 15px;
+    text-transform: uppercase;
+}
 
 
 
@@ -526,12 +524,20 @@ body {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .donate-content p {
         font-size: 30px;
     }
 
     .donate-section {
         height: 400px;
+    }
+
+    .landing-page-hero h1 {
+        width: 100%;
+    }
+
+    .site-footer {
+        height: 600px;
     }
 }

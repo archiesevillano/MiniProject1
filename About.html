@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up - AirGlobe</title>
+    <title>Who We Are - AirGlobe</title>
     <!-- Website Icon -->
     <link rel="icon" type="text/css" href="assets/images/AirGlobe_logo.svg">
 
     <!-- External CSS  -->
     <link rel="stylesheet" type="text/css" href="assets/css/topNavBar.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/carousel.css">
     <link rel="stylesheet" type="text/css" href="assets/css/infoNavList.css">
     <link rel="stylesheet" type="text/css" href="assets/css/swiper.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/gallery.css">
 
     <!-- Bootstrap CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -22,6 +22,7 @@
 
     <!-- SwiperJS CSS CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
 </head>
 
 <body>
@@ -67,9 +68,7 @@
                                 <a class="fs-6" href="index.html#news-section">News</a>
                             </li>
                             <li>
-                                <a class="fs-6" href="index.html#airStatus">
-                                    Forecast
-                                </a>
+                                <a class="fs-6" href="index.html#airStatus">Forecast</a>
                             </li>
                             <li>
                                 <a class="fs-6" href="index.html#site-footer">Contacts</a>
@@ -101,13 +100,19 @@
                     </label>
                 </li>
                 <li>
-                    <a href="index.html#news-section">News</a>
+                    <a href="index.html#news-section">
+                        News
+                    </a>
                 </li>
                 <li>
-                    <a href="index.html#airStatus">Forecast</a>
+                    <a href="index.html#airStatus">
+                        Forecast
+                    </a>
                 </li>
                 <li>
-                    <a href="index.html#site-footer">Contacts</a>
+                    <a href="index.html#site-footer">
+                        Contacts
+                    </a>
                 </li>
             </ul>
 
@@ -123,8 +128,16 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="videos.html">
                         Videos
+                    </a>
+                </li>
+                <li>
+
+                </li>
+                <li>
+                    <a class="donateBtn" href="signUp.html">
+                        Sign up
                     </a>
                 </li>
             </ul>
@@ -132,7 +145,6 @@
         </div>
 
         <!-- Top Navigation Links End -->
-
     </nav>
 
     <!-- Brand Section and Some Buttons -->
@@ -156,86 +168,71 @@
             <p class="m-0 ms-3 d-md-inline-block d-none">Join us and fight Global Warming together</p>
         </div>
 
-        <!-- Brand Section Buttons Here -->
-        <div
-            class="brand-section-button-container right d-flex justify-content-md-end align-items-center justify-content-center px-md-3 py-3">
-            <button type="button" id="donateUsBtn" class="donateUsBtn siteBtn highlight"
-                onclick="location.href='donationPage.html'">
-                Donate
-            </button>
-            <button type="button" id="messageUsBtn" class="messageUsBtn siteBtn"
-                onclick="location.href='messageUs.html'">
-                Message us
-            </button>
-        </div>
-
     </section>
 
-    <!-- Message us Page Content -->
-    <div class="message-us-container d-flex flex-md-row flex-column">
-        <div class="left d-flex flex-column justify-content-center align-items-center w-100">
-            <div class="content-box p-5">
-                <h3 class="text-uppercase fs-1" style="font-family: 'Inter', sans-serif;">Sign Up via Email
-                </h3>
-                <p class="m-0">
-                    Real Street Alabang-Zapote Road Putatan Muntinlupa Metro Manila Philippines
-                </p>
-                <p>
-                    Phone: (+63) 9567 786 8674
-                </p>
-                <ul class="social-links list-unstyled d-flex flex-row gap-4 mt-4">
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fs-4 fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fs-4 fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fs-4 fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fs-4 fa-google-plus-g"></i>
-                        </a>
-                    </li>
-                </ul>
+    <div class="about-content d-flex flex-column container-lg mt-3 justify-content-center align-items-center w-50">
+        <div class="left d-flex container-md mt-5 mb-4 justify-content-center align-items-center"
+            style="height: 100px;">
+            <div class="about-logo h-100">
+                <img src="assets/images/AirGlobe_logo.svg" alt="AirGlobe Logo" style="width:80%;height:80%;">
             </div>
+            <h1>Who We Are</h1>
         </div>
-        <form action="#" method="get" class="right d-flex flex-column justify-content-center align-items-start w-75">
-            <p class="fw-bold">Share your thoughts and ideas with us. Let's work together<br> and create a better world
+        <div class="right">
+            <p style="color:var(--theme-dark-green);" class="fs-3 text-center fw-bold">
+                We are a team of non-traditional problem solvers and creative environmentalists laser-focused on getting
+                carbon out of the atmosphere.
             </p>
-            <div class="content-box w-75">
-                <div class="col-12 my-2">
-                    <input type="text" class="form-control" placeholder="Enter your Name" aria-label="Enter your Name">
-                </div>
-                <div class="col-12 my-2">
-                    <input type="text" class="form-control" placeholder="Enter a valid email address"
-                        aria-label="Enter a valid email address">
-                </div>
-                <div class="verification-container mt-5">
-                    <p>
-                        We will need to verify your email address to complete the process.
-                        To verify if it's you, We will send you 6-digit code via your email
-                    </p>
-                    <form class="verification-form d-flex justify-content-start flex-column align-items-start"
-                        name="verification-form">
-                        <input type="text" name="otp-box" maxlength="6" class="otp-verification-box p-2 d-block"
-                            id="otp-box" placeholder="6-digit code">
-                        <div class="otp-btns d-flex flex-row gap-3">
-                            <input type="submit" class="send-otp-btn d-block mt-3" id="otp-btn" value="Send Code">
-                            <input type="submit" class="submit-otp-btn d-block mt-3" id="otp-btn" value="submit">
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </form>
+            <p style="text-align:justify">
+                Global warming is a pressing issue that is affecting the entire planet. It is a gradual increase in the
+                Earth's average surface temperature due to human activities such as the burning of fossil fuels,
+                deforestation, and industrial processes. The effects of global warming are numerous, including rising
+                sea
+                levels, more frequent and severe natural disasters, heat waves, and extreme weather patterns. These
+                effects
+                have significant impacts on human health, agriculture, and wildlife, leading to biodiversity loss and
+                ecological imbalances. The time to act on global warming is now, and we must all work together to
+                protect
+                our planet and secure a sustainable future for generations to come.
+            </p>
+
+            <p>
+                Through this website, we will make a
+                big
+                difference by informing the world about the ongoing environmental problems that each country face
+                through
+                providing the latest and hottest news we can gather. Moreover, this site provides factual information
+                and
+                evidence to address any inquiries you may have about global warming.
+            </p>
+        </div>
+
+        <h1 class="mt-5" style="color:var(--theme-dark-green)">
+            Get involved and support our work
+        </h1>
+
+        <p class="text-center">
+            Support AirGlobe work to safeguard against the worst impacts of climate change by catalyzing the rapid
+            global
+            development and deployment of low-carbon energy and other climate-protecting technologies through research
+            and
+            analysis, public advocacy leadership, and cross-sector partnerships.
+        </p>
+
+        <div class="row mb-5 d-flex justify-content-center align-items-center">
+            <button type="button" class="siteBtn highlight" style="width:200px;">
+                Donate
+            </button>
+        </div>
+
+
     </div>
+    <p class="mt-5 p-3 text-center fw-bold"
+        style="background-color:var(--fade-white);color:var(--theme-dark-transparent);">
+        <i class="fa-regular fa-face-laugh-beam me-2"></i>
+        Looks like you've reached the end result
+    </p>
+
 
     <!-- Scripts here -->
 
