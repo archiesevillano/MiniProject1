@@ -236,3 +236,11 @@ body {
     font-weight: bold;
     text-decoration: none;
 }
+
+.payment-type-container button:hover {
+    filter: brightness(90%);
+}
+
+.onetime-payment {
+    background-color: var(--theme-green);
+}
