@@ -225,6 +225,7 @@ body {
     border-left: 8px solid var(--theme-green) !important;
     min-width: 300px !important;
     max-width: 300px !important;
+    min-height: 400px !important;
 }
 
 .news-image-container {
