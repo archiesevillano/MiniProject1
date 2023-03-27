@@ -1,0 +1,67 @@
+.top-navbar {
+    background-color: var(--theme-green);
+    padding: 5px;
+    overflow: hidden;
+}
+
+.top-navigation-links a,
+.top-navigation-links label {
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--theme-dark);
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    padding: 5px;
+    display: inline-block;
+}
+
+.top-navigation-links a:hover,
+.top-navigation-links label:hover {
+    color: var(--clean);
+}
+
+a.donateBtn {
+    background: var(--theme-dark-transparent);
+    padding: 8px 10px;
+    color: var(--clean);
+}
+
+a.donateBtn:hover {
+    background: var(--theme-dark);
+}
+
+.navigation-search-item-container,
+.searchbox-responsive-view {
+    background-color: var(--clean);
+    padding: 5px 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.navigation-search-item-container button,
+.searchbox-responsive-view button {
+    outline: none;
+    background: none;
+    user-select: none;
+    border: none;
+    color: var(--theme-dark);
+}
+
+.navigation-search-item-container input,
+.searchbox-responsive-view input {
+    border: none;
+    outline: none;
+    background: none;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    font-size: 14px;
+}

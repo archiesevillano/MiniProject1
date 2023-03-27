@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Definitions and Articles - AirGlobe</title>
+    <!-- Website Icon -->
+    <link rel="icon" type="text/css" href="assets/images/AirGlobe_logo.svg">
+
+    <!-- External CSS  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/topNavBar.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/carousel.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/infoNavList.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/swiper.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <!-- SwiperJS CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!-- Web Content Here -->
+
+    <!-- Upper Navigation Links -->
+    <nav
+        class="top-navbar container-fluid d-flex flex-row justify-content-lg-end align-items-center justify-content-sm-center">
+
+        <!-- Top Navigation Links Start-->
+
+        <div
+            class="top-navigation-links right d-flex flex-row justify-content-between justify-content-lg-end align-items-center px-md-3 py-2 w-100">
+            <!-- Hidden in Large Screens -->
+
+            <div class="searchbox-responsive-view d-md-none d-flex">
+                <button type="button" class="navigation-search-button" id="navigation-search-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <input type="search" id="navigation-search-box-responsive-view"
+                    class="navigation-search-box-responsive-view" placeholder="Search here" autocomplete="on">
+            </div>
+
+            <div class="row d-md-none d-inline-block">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"
+                    style="padding:10px 20px!important;">
+                    <i class="fa-solid fa-bars fs-4"></i>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" style="width:50%!important"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li>
+                                <a class="fs-6" href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a class="fs-6" href="index.html#news-section">News</a>
+                            </li>
+                            <li>
+                                <a class="fs-6" href="index.html#airStatus">Forecast</a>
+                            </li>
+                            <li>
+                                <a class="fs-6" href="index.html#site-footer">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Bookmark Navigation Link -->
+            <ul
+                class="navigation-bookmark-list m-0 list-unstyled d-none d-md-flex flex-row justify-content-center align-items-center gap-3 me-3">
+                <li class="search">
+                    <div class="navigation-search-item-container" style="display:none;">
+                        <button type="button" class="navigation-search-button" id="navigation-search-button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <input type="search" id="navigation-search-box" class="navigation-search-box"
+                            placeholder="Search here" autocomplete="on">
+                        <button type="button" class="navigation-close-search-button"
+                            id="navigation-close-search-button">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                    <label for="navigation-search-box" class="navigation-search-label">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        Search
+                    </label>
+                </li>
+                <li>
+                    <a href="index.html#news-section">News</a>
+                </li>
+                <li>
+                    <a href="index.html#airStatus">Forecast</a>
+                </li>
+                <li>
+                    <a href="index.html#site-footer">Contacts</a>
+                </li>
+            </ul>
+
+            <!-- Page Navigation List -->
+            <ul
+                class="navigation-page-list m-0 list-unstyled d-none d-md-flex flex-row justify-content-center align-items-center gap-3">
+                <li>
+                    |
+                </li>
+                <li>
+                    <a href="photos.html">
+                        Photos
+                    </a>
+                </li>
+                <li>
+                    <a href="videos.html">
+                        Videos
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+        <!-- Top Navigation Links End -->
+
+    </nav>
+
+    <header class="header-info p-lg-5 p-2 d-flex flex-lg-row flex-column justify-content-between">
+        <div class="headbox">
+            <div class="row mb-2">
+                <span class="col-md-1 resource-txt d-inline-block">Resource <span
+                        style="color:var(--theme-green);margin-left:5px;">|</span></span>
+                <span class="col-md-2">National Geographic</span>
+            </div>
+            <h1>Global Warming</h1>
+            <p class="w-50">
+                Earth is warming up, and humans are at least partially to blame. The causes, effects, and complexities
+                of global warming are important to understand so that we can fight for the health of our planet.
+            </p>
+            <div class="row">
+                <div class="col-2 left">
+                    <span class="left-head d-block fw-bold">
+                        Last Updated
+                    </span>
+                    <span class="d-block">December 15, 2022</span>
+                </div>
+                <div class="col-2 right">
+                    <span class="right-head d-block fw-bold">
+                        Category
+                    </span>
+                    <span class="d-block">Earth Science, Climatology</span>
+                </div>
+            </div>
+        </div>
+        <div class="social-links-container me-5 d-flex justify-content-center align-items-end flex-column">
+            <button class="siteBtn highlight"
+                onclick="location.href='https\://education.nationalgeographic.org/resource/global-warming/'">
+                Visit Website
+            </button>
+            <ul class=" social-links list-unstyled d-flex flex-row gap-4 mt-5 justify-content-start
+                align-items-center">
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fs-4 fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fs-4 fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fs-4 fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fs-4 fa-google-plus-g"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="article-content p-lg-5 d-flex flex-row">
+        <div class="images-container position-relative">
+            <img src="assets/images/tennessee-power-plant.jpg" style="object-fit: cover; ">
+            <div class="image-details position-absolute p-5"
+                style="background-color:var(--theme-dark-transparent);bottom:0;left:0;z-index:1;color:var(--clean)">
+                <p
+                    style="text-transform:uppercase; font-family: 'Roboto', sans-serif;letter-spacing:3px;font-size:14px;">
+                    Tennessee Power Plant
+                </p>
+                <p class="fs-3">
+                    Ash spews from a coal-fueled power plant in New Johnsonville, Tennessee, United States.
+                </p>
+                <p class="fst-italic">
+                    PHOTOGRAPH BY EMORY KRISTOF/ NATIONAL GEOGRAPHIC
+                </p>
+            </div>
+        </div>
+        <div class="article-text p-4">
+            <p style="text-align:justify;">
+                Global warming is the long-term warming of the planet’s overall temperature. Though this warming trend
+                has been going on for a long time, its pace has significantly increased in the last hundred years due to
+                the burning of fossil fuels. As the human population has increased, so has the volume of fossil fuels
+                burned. Fossil fuels include coal, oil, and natural gas, and burning them causes what is known as the
+                “greenhouse effect” in Earth’s atmosphere.
+            </p>
+
+            <p style="text-align:justify;">
+                The greenhouse effect is when the sun’s rays penetrate the atmosphere, but when that heat is reflected
+                off the surface cannot escape back into space. Gases produced by the burning of fossil fuels prevent the
+                heat from leaving the atmosphere. These greenhouse gasses are carbon dioxide, chlorofluorocarbons, water
+                vapor, methane, and nitrous oxide. The excess heat in the atmosphere has caused the average global
+                temperature to rise overtime, otherwise known as global warming.
+            </p>
+
+            <p style="text-align:justify;">
+                Global warming has presented another issue called climate change. Sometimes these phrases are used
+                interchangeably, however, they are different. Climate change refers to changes in weather patterns and
+                growing seasons around the world. It also refers to sea level rise caused by the expansion of warmer
+                seas and melting ice sheets and glaciers. Global warming causes climate change, which poses a serious
+                threat to life on Earth in the forms of widespread flooding and extreme weather. Scientists continue to
+                study global warming and its impact on Earth.
+            </p>
+        </div>
+    </div>
+
+    <div id="causes" class="causes-container p-lg-5 p-2 cut-up">
+        <header>
+            <div class="left">
+                <h1>
+                    5 Causes of Global Warming
+                </h1>
+                <small>
+                    Last updated November 22, 2019
+                </small>
+                <small class="fst-italic d-block">
+                    By Chris Deziel
+                </small>
+            </div>
+            <div class="right">
+
+            </div>
+        </header>
+        <div class="causes-content d-flex flex-column justify-content-lg-center">
+            <div class="image-container mt-4 d-flex justify-content-center align-items-center h-100">
+                <img src="assets/images/photo1679905590.jpeg" style="object-fit: cover; ">
+            </div>
+
+            <div class="text-content p-5">
+                <p>
+                    The bulk of the world's scientific community is in agreement that our planet is becoming warmer and
+                    that one of the main factors of global warming is human activity. Scientists agree that the release
+                    of gases that prevent the dissipation of ground heat into space – a phenomenon known as the
+                    greenhouse effect – is responsible. The gases primarily responsible for global warming include water
+                    vapor, carbon dioxide, methane, nitrous oxide and chlorofluorocarbons (CFCs). Humans produce them by
+                    burning fossil fuels and engaging in various agricultural and industrial activities. The Earth
+                    itself also contributes with natural processes that create greenhouse gases and accelerate the
+                    warming trend.
+                </p>
+
+
+                <h2 class="mt-5">
+                    Greenhouse Gases Are the Main Reasons for Global Warming
+                </h2>
+                <p>
+                    Although carbon dioxide receives the most press as the culprit responsible for global warming, water
+                    vapor is actually the most abundant greenhouse gas in the atmosphere. Carbon dioxide still deserves
+                    its notoriety, however. It may be a minor component of the atmosphere, but its increased abundance
+                    is contributing to the warming trend, according to NASA. Humans exacerbate the problem by cutting
+                    trees that absorb this gas and by adding other greenhouse gases to the mixture over and above those
+                    that enter through natural processes. In addition, one of the global warming causes might be
+                    astronomical.
+                </p>
+
+                <h2 class="mt-5">
+                    Cause #1: Variations in the Sun's Intensity
+                </h2>
+
+                <p>
+
+                    The Earth receives its warmth from the sun, so it's reasonable to suspect that our home star may be
+                    one of the reasons for global warming. Although the amount of energy coming from the sun does vary
+                    and may have been responsible for warming in the past, however, NASA and the Intergovernmental Panel
+                    on Climate Change (IPCC) have ruled this out as a cause of the current warming trend. The average
+                    energy coming from the sun generally has remained constant since 1750, and the warming does not
+                    occur uniformly throughout the atmosphere. The upper layer is actually cooling as the bottom layer
+                    becomes warmer.
+                </p>
+
+                <h2 class="mt-5">
+                    Cause #3: Agricultural Activity
+                </h2>
+
+                <p>
+                    The agricultural practices that produce food for the people on earth is another of the human causes
+                    of climate change. The use of both commercial and organic fertilizers releases nitrous oxide, a
+                    powerful greenhouse gas. Methane, another important greenhouse gas, comes from many natural sources,
+                    but also from the digestive systems of livestock raised for meat production as well as the
+                    decomposition of waste in landfills and the burning of biomass.
+                </p>
+
+                <h2 class="mt-5">
+                    Cause #4: Deforestation
+                </h2>
+
+                <p>
+                    The increased demand for meat and dairy cattle has lead to the creation of feed lots in otherwise
+                    forested areas. Logging for wood and paper and clearing for crop production also requires trees to
+                    be cut, sometimes illegally. One mature tree absorbs as much as 48 pounds of carbon dioxide each
+                    year, and by one estimate, 3.5 to 7 billion are cut every year. According to Scientific American,
+                    deforestation is responsible for 15 percent of the greenhouse gases in the atmosphere.
+                </p>
+
+                <h2 class="mt-5">
+                    Cause #5: Earth's Own Feedback Loop
+                </h2>
+
+                <p>
+                    As the atmosphere warms, it is able to hold more water, which is already the most abundant
+                    greenhouse gas. This creates a feedback loop that accelerates global warming. It also creates more
+                    clouds, rainstorms and other symptoms of climate change. At the poles, the warming of the atmosphere
+                    melts the ice cover, exposing water, which is less reflective than ice. The water absorbs the sun's
+                    heat, and the oceans also become warmer as a result.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="solutions p-lg-5 p-2 cut-up">
+        <header class="d-flex flex-md-row justify-content-md-between align-items-md-center">
+            <div class="left">
+                <h1>
+                    Global warming solutions, explained
+                </h1>
+                <p>
+                    Humans have the solutions to address climate change. The question is: Do we have the will?
+                </p>
+                <small class="fst-italic d-block">
+                    By Christina Nunez
+                </small>
+                <small>
+                    Published January 25, 2019
+                </small>
+            </div>
+            <div class="right">
+                <img src="assets/images/pexels-ron-lach-7959343.jpg"
+                    style="width:400px;height:300px;object-fit:contain;">
+            </div>
+        </header>
+        <div class="solution-content">
+
+            <p>
+                The evidence that humans are causing climate change, with drastic consequences for life on the planet,
+                is overwhelming, but the question of what to do about it remains controversial. Economics, sociology,
+                and politics are all important factors in planning for the future.
+            </p>
+
+            <p>
+                A global conversation that began with concern over warming has now turned to the broader term climate
+                change, preferred by scientists to describe the complex shifts now affecting our planet’s weather and
+                climate systems. Climate change encompasses not only rising average temperatures but also extreme
+                weather events, shifting wildlife populations and habitats, rising seas, and a range of other impacts.
+                All of these changes are emerging as humans continue to add heat-trapping greenhouse gases to the
+                atmosphere.
+            </p>
+
+            <p>
+                Countries around the world acknowledged the imperative to act on climate change with the Paris Agreement
+                in 2015, making pledges to reduce greenhouse gas pollution. The Intergovernmental Panel on Climate
+                Change (IPCC), which synthesizes the scientific consensus on the issue, has set a goal of keeping
+                warming under 2 degrees Celsius (3.6 Fahrenheit) and pursuing an even lower warming cap of 1.5 degrees
+                Celsius (2.7 Fahrenheit).
+            </p>
+
+            <p>
+                Both of those targets are in jeopardy. Major countries are already falling behind on their pledges,
+                according to a UN report issued at the end of 2018, and emissions levels in 2030 need to be
+                approximately 25 to 55 percent lower than they were in 2017. Previous research suggests that even if
+                countries do meet their pledges to reduce emissions, those commitments won't be enough to stave off
+                severe warming.
+            </p>
+
+            <h1 class="mt-5">
+                What can be done?
+            </h1>
+
+            <p>
+                Addressing climate change will require many solutions—there's no magic bullet. Yet nearly all of these
+                solutions exist today, and many of them hinge on humans changing the way we behave, shifting the way we
+                make
+                and consume energy. The required changes span technologies, behaviors, and policies that encourage less
+                waste and smarter use of our resources. For example, improvements to energy efficiency and vehicle fuel
+                economy, increases in wind and solar power, biofuels from organic waste, setting a price on carbon, and
+                protecting forests are all potent ways to reduce the amount of carbon dioxide and other gases trapping
+                heat
+                on the planet.
+            </p>
+
+            <p>
+                Scientists are also working on ways to sustainably produce hydrogen, most of which is currently derived
+                from
+                natural gas, to feed zero-emission fuel cells for transportation and electricity. Other efforts are
+                aimed at
+                building better batteries to store renewable energy; engineering a smarter electric grid; and capturing
+                carbon dioxide from power plants and other sources with the goal of storing it underground or turning it
+                into valuable products such as gasoline. Some people argue that nuclear power—despite concerns over
+                safety,
+                water use, and toxic waste—should also be part of the solution, because nuclear plants don't contribute
+                any
+                direct air pollution while operating.
+            </p>
+
+            <p>
+                While halting new greenhouse gas emissions is critical, scientists have also emphasized that we need to
+                extract existing carbon dioxide from the atmosphere. More fanciful ideas for cooling the
+                planet—so-called
+                “geoengineering” schemes such as spraying sunlight-reflecting aerosols into the air or blocking the sun
+                with
+                a giant space mirror—have largely been dismissed because they may pose more environmental risks than
+                proven
+                benefits.
+            </p>
+
+            <p>
+                But planting trees, restoring seagrasses, and boosting the use of agricultural cover crops could help
+                clean up significant amounts of carbon dioxide. Restoring forests already chopped down in Brazil, for
+                example, could draw about 1.5 billion metric tons of CO2 out of the air, and a recent study published by
+                the National Academies of Science estimates the world’s forests and farms could store 2.5 gigatons.
+                Those are relatively modest numbers given historic carbon emissions of 2.2 trillion metric tons, but
+                every contribution is needed to curtail the world’s current trajectory.
+            </p>
+
+
+            <p class="mt-5 p-3 text-center rounded-pill fw-bold"
+                style="background-color:var(--fade-white);color:var(--theme-dark-transparent);">
+                <i class="fa-regular fa-face-laugh-beam me-2"></i>
+                Looks like you've reached the end result
+            </p>
+
+
+        </div>
+    </div>
+
+
+
+
+    <!-- Scripts here -->
+
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/bbbef04b10.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Script CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+
+    <!-- SwiperJS Script CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- External Scripts -->
+    <script type="text/javascript" src="assets/js/index.js"></script>
+    <script type="text/javascript" src="assets/js/topNavBar.js"></script>
+
+</body>
+
+</html>

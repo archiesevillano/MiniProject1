@@ -1,0 +1,87 @@
+.air-status-container {
+    width: 100%;
+    padding: 20px;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 350px;
+}
+
+.air-stat-card {
+    max-width: 280px;
+    max-height: 250px;
+    min-width: 280px;
+    min-height: 250px;
+    background-color: #333;
+    padding: 20px 0 0 20px;
+    box-shadow:
+        7.5px 4px 4.8px rgba(0, 0, 0, 0.011),
+        17.5px 9.3px 11.3px rgba(0, 0, 0, 0.021),
+        31.4px 16.6px 20.4px rgba(0, 0, 0, 0.03),
+        52.2px 27.6px 34px rgba(0, 0, 0, 0.039),
+        86px 45.5px 56.5px rgba(0, 0, 0, 0.048),
+        150.3px 79.5px 99.7px rgba(0, 0, 0, 0.059),
+        325px 172px 208px rgba(0, 0, 0, 0.09);
+    position: relative;
+    overflow: hidden;
+}
+
+.air-element {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: var(--fade-white);
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+
+.pollutant-value {
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    color: var(--fade-white);
+    padding-right: 4px;
+}
+
+.measured-value {
+    font-family: 'Lato', sans-serif;
+    color: var(--fade-white);
+    font-size: 25px;
+}
+
+.element-name,
+.qualitative-value {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--fade-white);
+    opacity: 0.8;
+}
+
+.element-name {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.qualitative-value {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.backlight {
+    border-bottom-left-radius: 100%;
+    filter: brightness(40%) blur(4px);
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    top: -55px;
+    right: -75px;
+    background-image: url(../images/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    z-index: -1;
+}
